@@ -11,6 +11,6 @@ class AdminHomeController extends GetxController
 
   @override
   void onInit() {
-    validateAutoRotate();
+    initConfig();
   }
 }
